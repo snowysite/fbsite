@@ -1,0 +1,287 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #313866;
+}
+nav{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 10px 100px 10px ;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li a{
+    color: #757aa2;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.nav-li ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.home{
+    color: #b780bc;
+    font-weight: 700;
+}
+.btn button{
+    background-color:#313866;
+    border: none;
+
+}
+.btn{
+    display: flex;
+    gap: 15px;
+}
+.btn button a{
+    color:#757aa2;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btn button a .sign{
+    color: #b780bc;
+    text-decoration: underline;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+
+}
+.txt-pix{
+    display: flex;
+    gap: 400px;
+
+
+}
+.txt h1{
+    color: #b780bc;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+
+
+}
+
+.txt h3{
+    color: #fff;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+.txt h5{
+    color: #fff;
+    padding-bottom: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.txt button{
+    background-color: #b780bc;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    /* padding-top: 10px; */
+}
+.txt button a{
+    color: #757aa2;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+
+}
+main .txt h1{
+    color: #fff;
+
+}
+.last{
+    display: flex;
+    justify-content: center;
+    padding-top:100px;
+
+}
+.ai{
+    color: #b780bc;
+}
+.txt .bg{
+    background-color: #eac533;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+
+}
+ main .txt-pix .txt button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+} 
+.last .txt h1{
+    color: #fff;
+}
+.last .bg{
+    background-color: #eac533;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+
+}
+  .last .txt .bg a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+} 
+.connect{
+    padding-bottom: 20px;
+}
+.pix-img{
+    display: flex;
+    gap: 135px;
+   
+}
+.pix img{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.fix img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.connect .pix-img .txt .btns{
+        display: flex;
+        position: absolute;
+        top: 2095px;
+        left: 600px;
+}
+.connect .pix-img .txt .btns.bg{
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.connect .pix-img .txt .btns.bg:hover{
+    background-color: #b780bc;
+    
+
+}
+.connect .pix-img .txt h5{
+    text-align: center;
+}
+.connect .pix-img .txt h1{
+    text-align: center;
+}
+ .container{
+    padding-top: 30px;
+
+} 
+.row{
+    display: flex;
+    gap: 25px;
+}
+.col{
+    background-color: #3e405e;
+}
+h2{
+    color: #fff;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    right: 20px;
+}
+.text h1{
+    color: #fff;
+}
+.text p{
+    color: #fff;
+
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #eac533;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: -16px;
+    transition: 0.5s;
+    text-align: center;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  button{
+    background: none;
+    border: none;
+  }
+  button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  .rows{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card{
+    background: none;
+    padding: 30px 20px 30px;
+    margin: 30px 20px 30px;
+    width: 300px;
+    border: none;
+
+  }
+  .card-body{
+    color: #fff;
+  }
+
+  .card-title{
+    display: flex;
+    justify-content: space-between;
+  }
